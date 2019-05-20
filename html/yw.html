@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>运维门户</title>
+
+    <!--============ All CSS Links ===========-->
+    <link rel="stylesheet" href="assets/bootstrap-4.0.0-beta.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/ionicons.css">
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+    <link rel="stylesheet" href="assets/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!--=== navigation ===-->
+    <header data-spy="scroll" data-target="#v" id="nav" class="header">
+        <!-- menu -->
+        <div class="navbar navbar-expand-md navbar-light default-menu justify-content-betweeindex.html" role="navigation">
+            <div class="container-fluid">
+                <a href="index.html" class="site-logo navbar-brand">Eagle</a>
+                <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#v" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="v">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="门户.html">主页</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="技术支持.html">软件中心</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="技术支持.html">了解我们</a></li>
+                        <li class="nav-item"><a class="nav-link scroll" href="blogpage.html">技术分享</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!--=== page header ===-->
+    <section class="page-header d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="page-header-content text-center">
+                <div class="page-header-tag">更新通知</div>
+                <div class="page-header-title">ELK更新至7.0版本，加入索引生命周期管理功能</div>
+            </div>
+        </div>
+    </section>
+
+    <!--=== speciality ===-->
+    <section class="speciality">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title mb-5"><h2>常用运维工具</h2></div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><a href="kibana.html"><i class="ion ion-ios-cloud-outline"></i></a></div>
+                        <a href="kibana.html">Kibana</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><a href="grafana.html"><i class="ion ion-ios-book-outline"></i></a></div>
+                        <a href="grafana.html">Grafana</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><a href="prom.html"><i class="ion ion-ios-browsers-outline"></i></a></div>
+                        <a href="prom.html">Prometheus</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><a href="gitlab.html"><i class="ion ion-ios-pie-outline"></i></a></div>
+                        <a href="gitlab.html">Gitlab</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><a href="traefik.html"><i class="ion ion-ios-medkit-outline"></i></a></div>
+                        <a href="traefik.html">K8S网关</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <div class="speciality-wrap">
+                        <div><a href="nexus.html"><i class="ion ion-ios-analytics-outline"></i></a></div>
+                        <a href="nexus.html">工件库</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- 运维实验环境介绍 -->
+    <section id="feature" class="feature" >
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title mb-5"><h2>实验环境简介</h2></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <div><i class="ion ion-ios-cloud-outline"></i></div>
+                        <a href="#">运维管理集群</a>
+                        <p>集群首节点IP：192.168.5.151<br>集群规模：3<br>集群SSH账户：root<br>集群SSH密码：123456</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <div><i class="ion ion-ios-gear-outline"></i></div>
+                        <a href="#">部署验证集群</a>
+                        <p>集群首节点IP：192.16.133.160<br>集群规模：3<br>集群SSH账户：root<br>集群SSH密码：123456</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <div><i class="ion ion-ios-bell-outline"></i></div>
+                        <a href="#">类生产集群</a>
+                        <p>集群首节点IP：192.165.1.10<br>集群规模：6<br>集群SSH账户：root<br>集群SSH密码：123456</p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="feature-wrap">
+                        <div><i class="ion ion-ios-timer-outline"></i></div>
+                        <a href="#">Multi-file Package</a>
+                        <p>You can use multiple file with single entry. at front-end those files will be downloaded as a zip</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!--=== blog page ===-->
+    <section class="blog-page-1">
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                            <div class="section-title mb-5"><h2>快速开始</h2></div>
+                        </div>
+                <div class="col-lg-12">
+                    <div class="blog-page-header">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+
+
+                        <!-- 此处添加静态页面 -->
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img class="img-fluid" src="assets/images/thumb/ELK.jpg" alt="image">
+                                </div>
+                                <div class="blog-details">
+                                    <ul class="list-inline blog-item-links">
+                                        <!-- <li class="list-inline-item"><a href="#"><i class="ion ion-person"></i>Admin</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="ion ion-calendar"></i>November 18, 2018</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="ion ion-chatbubbles"></i>Comments 113</a></li> -->
+                                    </ul>
+                                    <a href="elk.html"><h4 class="media-heading">在ELK接入自定义日志</h4></a>
+                                    <!-- <p>ELK是一款日志聚合查询的日志管理系统</p> -->
+                                    <a href="elk-wiki.html" class="blog-post-link">快速开始 <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                                <div class="blog-post">
+                                        <div class="post-img">
+                                            <img class="img-fluid" src="assets/images/thumb/Prom.jpg" alt="image">
+                                        </div>
+                                        <div class="blog-details">
+                                            <ul class="list-inline blog-item-links">
+                                            </ul>
+                                            <a href="prom.html"><h4 class="media-heading">通过Promethues监控组件</h4></a>
+                                            <!-- <p>Prometheus是一款时序数据的监控系统.</p> -->
+                                            <a href="prom-wiki.html" class="blog-post-link">快速开始 <i class="fa fa-angle-double-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div> 
+
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img class="img-fluid" src="assets/images/thumb/grafana.jpg" alt="image">
+                                </div>
+                                <div class="blog-details">
+                                    <ul class="list-inline blog-item-links">
+                                        <!-- <li class="list-inline-item"><a href="#"><i class="ion ion-person"></i>Admin</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="ion ion-calendar"></i>November 18, 2018</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="ion ion-chatbubbles"></i>Comments 113</a></li> -->
+                                    </ul>
+                                    <a href="elk.html"><h4 class="media-heading">在Grafana创建自定义Dashboard</h4></a>
+                                    <!-- <p>ELK是一款日志聚合查询的日志管理系统</p> -->
+                                    <a href="elk-wiki.html" class="blog-post-link">快速开始 <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div> 
+
+                        
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="blog-post">
+                                <div class="post-img">
+                                    <img class="img-fluid" src="assets/images/thumb/traefik.jpg" alt="image">
+                                </div>
+                                <div class="blog-details">
+                                    <ul class="list-inline blog-item-links">
+                                        <!-- <li class="list-inline-item"><a href="#"><i class="ion ion-person"></i>Admin</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="ion ion-calendar"></i>November 18, 2018</a></li>
+                                        <li class="list-inline-item"><a href="#"><i class="ion ion-chatbubbles"></i>Comments 113</a></li> -->
+                                    </ul>
+                                    <a href="elk.html"><h4 class="media-heading">在traefik添加自己的服务</h4></a>
+                                    <!-- <p>ELK是一款日志聚合查询的日志管理系统</p> -->
+                                    <a href="elk-wiki.html" class="blog-post-link">快速开始 <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--=== footer area ===-->
+    <section class="footer-area">
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item-title"><h4>联系我们</h4></div>
+                    <div class="subscribe">
+                        <p>该页面展示的所有工具为技术支持中心维护，遇到问题欢迎联系我们，联系方式：不告诉你们</p>
+                    </div>
+                    <div class="list-wrap">
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item"><i class="ion ion-social-facebook"></i></li>
+                            <li class="list-inline-item"><i class="ion ion-social-dribbble"></i></li>
+                            <li class="list-inline-item"><i class="ion ion-social-github"></i></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+            <hr>
+
+                
+                
+            </div>
+            <a href="#nav" class="top-arrow section-scroll scroll"><i class="ion ion-arrow-up-c"></i></a>
+        </div>
+    </section>
+
+
+    <!--============ JavaScript ===========-->
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/bootstrap-4.0.0-beta.3-dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/plugins/slick/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
